@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://media.cntraveler.com/photos/5ef635b25a986932f31237d9/16:9/w_2560%2Cc_limit/CampingGear-2020-GettyImages-sb10070057l-001.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  
+}
+
+
+.nav-link{
+    font-size: 1rem;
+    color: white;
+    margin-left: 0.1rem;
+    border-bottom:0.10rem solid transparent;
+    padding-bottom: 0.1rem;
+
+}
+.active {
+    border-bottom:0.10rem solid white;
+    font-weight: bold;
+
+
+}
+.nav-link:hover{
+    color: white;
+    border-bottom:0.10rem solid white;
+
+}
+.btn-secondary{
+    text-shadow: none;
+}

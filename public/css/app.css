@@ -1,0 +1,14 @@
+#cluster-map{
+    width: 100%;
+    height: 500px;
+    padding: none;
+    margin: none;
+}
+#map{
+        width: 400px;
+        height: 300px;
+}
+.scale-down {
+    transform: scale(0.95); /* Scale down to 90% */
+    transform-origin: top left; /* Ensure it scales from the top-left corner */
+}
